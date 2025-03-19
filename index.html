@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lists,images,Tables and forms</title>
+</head>
+<body>
+<h1>HTML List</h1>
+<h3>Ordered List</h3>
+<ol type="i">
+    <li> Software Engineering</li>
+    <li> Web development</li>
+    <li>Python</li>
+    <li>Database</li>
+    <li>Startup Building</li>
+</ol>
+<h3>External image</h3>
+<img src="https://images.pexels.com/photos/27846554/pexels-photo-27846554/free-photo-of-a-side-view-mirror-of-an-orange-car.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="a car"width="350" height="550">
+<h3> Contact Informaton Table</h3>
+<table border="1">
+    <caption>Contact Information</caption>
+    <thead><tr>
+        <th>Name</th>
+        <th >Address</th>
+        <th>Mobile</th>
+        <th >Email</th>
+    </tr></thead>
+    <tbody>
+        <tr>
+            <td>Ronald</td>
+            <td>1303</td>
+            <td>075639094</td>
+            <td>roy@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Kim</td>
+            <td>1689</td>
+            <td>094783768</td>
+            <td>Kim@gmail.com</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>2831</td>
+            <td>073924024</td>
+            <td>John@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Vanessa</td>
+            <td>83031</td>
+            <td>073041481</td>
+            <td>Vanessa@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Huda</td>
+            <td>34942</td>
+            <td>072498357</td>
+            <td>Huda@gmail.com</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+    </tfoot>
+</table>
+<h3>Registration Form</h3>
+<form action=""method="">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name"placeholder="Enter name:" required>
+    <br><br>
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email"placeholder="Enter email:"required>
+    <br><br>
+    <label for ="password">Password</label>
+    <input type="text" id="password"name="password" placeholder="Enter password" required>
+    <br><br>
+    <label for ="DOB">Date of Birth</label>
+    <input type="text" id="DOB" name="DOB" placeholder="Enter Date of Birth" required>
+    <br><br>
+
+    <label>Languages known: </label>
+    <input type="checkbox" name="language" id="english" value="english">
+    <label for="english">English</label>
+    <input type="checkbox" id="swahili" name="language" value="swahili">
+    <label for="swahili">Swahili</label>
+    <input type="checkbox" id="french" name="language" value="french">
+    <label for="french">French</label>
+    <br><br> 
+
+    <label for="country">Country</label>
+    <select name="country" id="country" required>
+        <option>--Select Country--</option>
+        <option value="belgium">Belgium</option> 
+        <option value="china">China</option>
+        <option value="kenya">Kenya</option>
+        <option value="Ethiopia">Ethiopia </option>
+    </select>
+    <br><br>
+    <label>Gender</label>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label>
+    <input type="radio" name="gender" value="female"  id="female">
+    <label for="female">Female</label>
+<br><br>
+<input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
